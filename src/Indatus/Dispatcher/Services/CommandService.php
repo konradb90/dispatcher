@@ -183,7 +183,7 @@ class CommandService
             $commandPieces[] = PHP_BINARY;
         }
 
-        $commandPieces[] = base_path().'/artisan';
+        $commandPieces[] = base_path().'/console';
         $commandPieces[] = $scheduledCommand->getName();
 
         if (count($arguments) > 0) {
