@@ -189,7 +189,7 @@ class CommandService
             }
         }
 
-        $commandPieces[] = base_path().'/artisan';
+        $commandPieces[] = base_path().'/console';
         $commandPieces[] = $scheduledCommand->getName();
 
         //always pass environment
